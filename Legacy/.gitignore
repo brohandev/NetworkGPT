@@ -1,0 +1,6 @@
+Authentication/credentials.py
+Authentication/.env
+*.gif
+Test/sw-test.py
+Test/dnac-node-test.py
+*.pyc
