@@ -10,11 +10,11 @@ Optimize the security of your software-defined infrastructure with Network GPT. 
 
 2. Navigate to the Webex Developer portal, create a new [bot token][1]. Note down the bot access token.
 
-    <img width="433" alt="image" src="https://wwwin-github.cisco.com/storage/user/34020/files/f9b0ae1a-bb1c-4be0-8f53-4a482bfdfb46">
+    <img width="433" alt="image" src="Storage/Media/networkgpt_bot_token.png">
  
-3. Navigate to the `Network_GPT/Authentication` folder, and create a `.env' file. Replace all the placeholder values with the appropriate controller credentials
+3. Navigate to the `Network_GPT/Authentication` folder, and modify the `.env' file. Replace all the placeholder values with the appropriate controller credentials.
 
-    <img width="387" alt="image" src="https://wwwin-github.cisco.com/storage/user/34020/files/7a853254-f2f4-4a14-937a-2029a980e67a">
+    <img width="387" alt="image" src="Storage/Media/auth_credentials.png">
 
 4. Navigate to the `Network_GPT/Storage` folder, and open `prompt_kb.xslx' file. There are 4 sheets being used, the values under 'Description' header can be manipulated to suit your needs. It is encouraged for you to modify the prompt description to be more focused on the sort of questions anticipated from your user.
     - `SYSTEM_INIT`: This is the initial system prompt to initialize the ChatGPT engine
@@ -34,10 +34,10 @@ Optimize the security of your software-defined infrastructure with Network GPT. 
 
 
 ## Example Use Cases:
-<img width="699" alt="image" src="https://wwwin-github.cisco.com/storage/user/34020/files/cba58d36-9698-4497-aa02-21c223126de0">
-<img width="662" alt="image" src="https://wwwin-github.cisco.com/storage/user/34020/files/5b97000d-7430-4afe-96dc-ce3a0d300a99">
-<img width="538" alt="image" src="https://wwwin-github.cisco.com/storage/user/34020/files/a90009ff-0518-4bd5-b538-eee6d910c67a">
-<img width="687" alt="image" src="https://wwwin-github.cisco.com/storage/user/34020/files/e5372f25-b57d-4be3-8d67-eea7f7ae3e15">
+<img width="699" alt="image" src="Storage/Media/exception_rules.png">
+<img width="662" alt="image" src="Storage/Media/authorization_policies.png">
+<img width="538" alt="image" src="Storage/Media/switch_memory.png">
+<img width="687" alt="image" src="Storage/Media/best_biriyani.png">
 
 
 ## Changlog:
